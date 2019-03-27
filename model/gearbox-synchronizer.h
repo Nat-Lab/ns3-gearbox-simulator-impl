@@ -52,7 +52,7 @@ protected:
 
 private:
     double_t m_factor;
-    uint64_t m_offset;
+    int64_t m_offset;
     bool DoSynchronizePriv (uint64_t now, uint64_t delay);
 };
 
